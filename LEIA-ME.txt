@@ -1,0 +1,16 @@
+PORTFÓLIO DE INFORMÁTICA — RAQUEL
+
+Como abrir:
+1. Extraia os arquivos do ZIP.
+2. Abra o arquivo index.html em um navegador (Chrome, Edge, Firefox etc.).
+
+Como personalizar:
+- Edite index.html para alterar o texto, formação, habilidades e contatos.
+- Edite style.css para mudar as cores e o visual.
+- Não deixe no currículo habilidades ou experiências que você ainda não possui.
+- Substitua os campos de contato pelos seus dados antes de compartilhar.
+
+Arquivos:
+- index.html: conteúdo do portfólio
+- style.css: aparência e layout
+- script.js: ano automático no rodapé

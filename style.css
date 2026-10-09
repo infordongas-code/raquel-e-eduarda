@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+:root { --navy: #14213d; --blue: #2563eb; --cyan: #38bdf8; --paper: #f4f7fb; --ink: #1f2937; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: var(--paper); color: var(--ink); line-height: 1.65; }
+.hero { text-align: center; padding: 76px 20px 82px; color: white; background: linear-gradient(135deg, #14213d, #1d4ed8 68%, #0891b2); }
+.badge { display: inline-block; padding: 6px 13px; border: 1px solid #ffffff70; border-radius: 999px; letter-spacing: 2px; font-size: .75rem; }
+h1 { font-size: clamp(2.2rem, 6vw, 4.4rem); line-height: 1.1; margin: 22px 0 12px; }
+h1 span { color: #7dd3fc; }
+.subtitle { margin: 0 auto 28px; color: #e0f2fe; }
+.button { display: inline-block; background: white; color: #1d4ed8; text-decoration: none; font-weight: 700; padding: 11px 20px; border-radius: 10px; }
+.button:hover { transform: translateY(-2px); }
+main { width: min(900px, 92%); margin: -28px auto 50px; position: relative; }
+.card { background: white; border-radius: 16px; padding: 26px clamp(20px, 4vw, 34px); margin-bottom: 20px; box-shadow: 0 12px 30px #14213d0d; border: 1px solid #e7edf5; }
+h2 { margin: 0 0 14px; color: var(--navy); font-size: 1.35rem; }
+h2::after { content: ""; display: block; width: 46px; height: 4px; margin-top: 8px; border-radius: 8px; background: var(--cyan); }
+.skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+.skill { background: #f1f7ff; border-left: 4px solid var(--blue); padding: 14px; border-radius: 8px; }
+.skill strong, .skill span { display: block; }
+.skill span { font-size: .92rem; color: #536174; margin-top: 4px; }
+.hint { color: #64748b; font-size: .86rem; font-style: italic; }
+.timeline { border-left: 3px solid #93c5fd; padding-left: 18px; }
+.timeline p { margin: 4px 0; }
+li { padding: 3px 0; }
+footer { text-align: center; padding: 25px 15px; background: var(--navy); color: #dbeafe; font-size: .9rem; }
+@media (max-width: 520px) { .hero { padding-top: 58px; } .card { padding: 22px 18px; } }
